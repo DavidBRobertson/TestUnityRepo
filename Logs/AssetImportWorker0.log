@@ -1,0 +1,105 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/davidrobertson/Documents/Unity/2dMovement
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61811
+Successfully changed project path to: /Users/davidrobertson/Documents/Unity/2dMovement
+/Users/davidrobertson/Documents/Unity/2dMovement
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/davidrobertson/Documents/Unity/2dMovement/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-29 20:15:01.753 Unity[42104:1241677] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-29 20:15:01.753 Unity[42104:1241677] Metal devices available: 1
+2021-04-29 20:15:01.753 Unity[42104:1241677] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-04-29 20:15:01.753 Unity[42104:1241677] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000736 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.497 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.4 MB.
+System memory in use after: 149.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 2.487227 ms (FindLiveObjects: 0.209358 ms CreateObjectMapping: 0.055276 ms MarkObjects: 2.076223 ms  DeleteObjects: 0.144526 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/ormene.png
+  artifactKey: Guid(adf8c0ad8c7504cbba9b39465d6bb25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ormene.png using Guid(adf8c0ad8c7504cbba9b39465d6bb25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40fccc8fcb41b8da6f14e73f829eacb') in 0.381402 seconds
+  Import took 0.384868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/CharacterController2D.cs
+  artifactKey: Guid(f456a1b5c50ac4549b9c8fa48008b763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterController2D.cs using Guid(f456a1b5c50ac4549b9c8fa48008b763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db157b01a0e39bf2d8c890cae8016b9') in 0.407007 seconds
+  Import took 0.410794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.2 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 2.249195 ms (FindLiveObjects: 0.197242 ms CreateObjectMapping: 0.060404 ms MarkObjects: 1.866397 ms  DeleteObjects: 0.122290 ms)
+
